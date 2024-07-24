@@ -34,6 +34,6 @@ const mechanicSchema = new mongoose.Schema({
 
 
 
-const Mechanic = mongoose.model("Master", mechanicSchema);
+const Mechanic = mongoose.model("Mechanic", mechanicSchema);
 
 module.exports = Mechanic;
